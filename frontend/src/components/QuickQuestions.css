@@ -1,0 +1,64 @@
+.quick-section {
+  margin-top: 5px;
+}
+
+.quick-section h3 {
+  font-size: 17px;
+
+  margin-bottom: 16px;
+}
+
+
+.quick-question {
+
+  width: 100%;
+
+  min-height: 54px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-bottom: 10px;
+
+  padding: 10px 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid #315075;
+
+  background: rgba(255, 255, 255, 0.04);
+
+  color: white;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.quick-question:hover {
+
+  background: #193d6d;
+
+  border-color: #4d91ff;
+}
+
+.quick-icon {
+  font-size: 18px;
+}
+
+.quick-question span:nth-child(2) {
+  flex: 1;
+
+  font-size: 13px;
+}
+
+.arrow {
+  font-size: 22px;
+
+  color: #a8b9d0;
+}

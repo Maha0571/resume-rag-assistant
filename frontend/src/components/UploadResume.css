@@ -1,0 +1,194 @@
+.upload-section {
+  margin-bottom: 25px;
+}
+
+.upload-section h3 {
+  font-size: 17px;
+
+  margin-bottom: 18px;
+}
+
+
+/* Upload box */
+
+.upload-box {
+
+  border: 1px dashed #3783ff;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.cloud-icon {
+  font-size: 42px;
+
+  margin-bottom: 8px;
+}
+
+.upload-box h4 {
+  font-size: 16px;
+
+  margin-bottom: 6px;
+}
+
+.upload-box p {
+  color: #a8b9d0;
+
+  font-size: 13px;
+
+  margin-bottom: 15px;
+}
+
+
+/* File */
+
+.file-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin-bottom: 12px;
+}
+
+.choose-file {
+
+  background: white;
+
+  color: #13294b;
+
+  padding: 8px 13px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  white-space: nowrap;
+}
+
+.choose-file input {
+  display: none;
+}
+
+.file-name {
+
+  background: #213c63;
+
+  padding: 8px 10px;
+
+  border-radius: 7px;
+
+  font-size: 12px;
+
+  max-width: 150px;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+}
+
+.file-name span {
+  margin-left: 7px;
+
+  cursor: pointer;
+
+  color: #b9c8dc;
+}
+
+
+/* Upload button */
+
+.upload-button {
+
+  width: 100%;
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 12px;
+
+  background: #1769ff;
+
+  color: white;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background: #0758e8;
+}
+
+.upload-button:disabled {
+  opacity: 0.6;
+
+  cursor: not-allowed;
+}
+
+
+/* Success */
+
+.upload-success {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  background: #087c68;
+
+  margin-top: 15px;
+
+  padding: 14px;
+
+  border-radius: 10px;
+}
+
+.success-icon {
+
+  width: 30px;
+  height: 30px;
+
+  background: white;
+
+  color: #087c68;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+.upload-success strong {
+  font-size: 13px;
+}
+
+.upload-success p {
+
+  color: #c6f5e9;
+
+  font-size: 12px;
+
+  margin-top: 4px;
+}
